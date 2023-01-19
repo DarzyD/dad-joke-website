@@ -1,13 +1,115 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+body {
+  font-family: 'Poppins', sans-serif;
 }
+
+.container {
+  max-width: calc(100vw - 100px);
+  margin: 30px auto;
+  overflow: auto;
+  min-height: calc(100vh - 100px);
+  border: 7px solid black;
+  padding: 30px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.header{
+  text-align: center;
+  width: 100%;
+  margin-bottom:20px;
+}
+.display {
+  border: 3px solid steelblue;
+  width: 50%;
+  margin: 0 auto;
+  overflow: auto;
+  word-break: keep-all;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+}
+.joke{
+  color: rgb(40, 56, 56);
+  font-weight: 590;
+  text-align: center;
+}
+
+.btnDiv {
+  width: 50%;
+  margin: 0 auto;
+  overflow: auto;
+  word-break: keep-all;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.btn {
+  margin: 10px;
+  display: flex;
+  background: rgb(76, 76, 193);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn.hover{
+   opacity: 0.5;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.copyBtn {
+  margin: 10px;
+  display: flex;
+  background: rgb(76, 76, 193);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.copyBtn:focus {
+  outline: none;
+}
+
+.copyBtn.hover{
+   opacity: 0.5;
+}
+
+.copyBtn:active {
+  transform: scale(0.98);
+}
+
+
+
+
