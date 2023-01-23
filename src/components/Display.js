@@ -1,8 +1,7 @@
-import Joke from './Joke'
 const display = ({joke}) => {
   return (
     <div className = 'display'> 
-        <Joke joke = {joke}></Joke>
+        <p className = 'joke'> {joke} </p>
     </div>
   )
 }

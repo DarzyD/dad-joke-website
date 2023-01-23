@@ -1,8 +1,8 @@
 # Random Dad Jokes!
 
-![Screenshot](websiteScreenshot.png?raw=true "Website")
 
-Here is what the webpage looks like.
+
+Here is a demo of the webpage
 
 ## Overview
 

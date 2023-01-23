@@ -42,7 +42,17 @@ body {
   font-weight: 590;
   text-align: center;
 }
-
+@media screen and (max-width: 700px) {
+  .display{
+    width: 100%;
+  }
+  .btnDiv {
+    bottom: 50px;
+  }
+  .button{
+    width: 100%; 
+  }
+}
 .btnDiv {
   width: 50%;
   margin: 0 auto;
@@ -52,11 +62,9 @@ body {
   padding-bottom: 30px;
   margin-bottom: 20px;
   display: flex;
-  justify-content: center;
-  
+  justify-content: center; 
 }
-
-.btn {
+button{
   margin: 10px;
   display: flex;
   background: rgb(76, 76, 193);
@@ -70,45 +78,18 @@ body {
   font-family: inherit;
   transition: opacity 0.2s ease-in-out;
 }
-
-.btn:focus {
+button:focus {
   outline: none;
 }
 
-.btn.hover{
+button.hover{
    opacity: 0.5;
 }
 
-.btn:active {
+button:active {
   transform: scale(0.98);
 }
 
-.copyBtn {
-  margin: 10px;
-  display: flex;
-  background: rgb(76, 76, 193);
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 30px;
-  cursor: pointer;
-  text-decoration: none;
-  font-size: 15px;
-  font-family: inherit;
-  transition: opacity 0.2s ease-in-out;
-}
-
-.copyBtn:focus {
-  outline: none;
-}
-
-.copyBtn.hover{
-   opacity: 0.5;
-}
-
-.copyBtn:active {
-  transform: scale(0.98);
-}
 
 
 
